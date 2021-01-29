@@ -1,0 +1,85 @@
+
+ /* Elements  */
+
+#firstBlock{
+    background-image: url("../Media/secondBlockBackground.jpg");
+    background-size: cover;
+    padding: 40px;
+    margin-bottom: 5%;
+}
+#firstBlock table{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#firstBlock #firstTd{
+    text-align: left;
+    width: 50%;
+}
+#firstBlock #firstLine{
+    color: white;
+    font-size: 12pt;
+    margin-top: 0;
+}
+#firstBlock #secondLine{
+    color: white;
+    font-family: monospace;
+    text-align: left;
+    font-size: 26pt;
+    margin-left: 0px;
+}
+#firstBlock #thirdLine{
+    font-family: cursive;
+    color: white;
+    font-weight: 200;
+}
+#firstBlock img{
+    margin-left: 10%;
+    height: 73%;
+    max-width: 100%;
+}
+
+#firstBlock #secondTr #secondTd{
+    padding-left: 5%;
+}
+#firstBlock #leftButton{
+    background-color: rgb(240, 128, 147);
+    border-radius: 30px;
+    border: 0px;
+    font-size: 8pt;
+    padding: 10px 15px;
+    color: white;
+}
+#firstBlock #rightButton{
+    background-color: rgb(36, 214, 227);
+    border: 0px;
+    font-size: 8pt;
+    padding: 10px 5px;
+    color: white;
+}
+
+ /* Media  */
+
+@media (max-width: 700px){
+    #firstBlock #firstLine{
+        font-size: 10px;
+    }
+    #firstBlock #secondLine{
+        font-size: 25px;
+    }
+    #firstBlock #firstTd #thirdLine{
+        font-size: 10pt;
+    }
+    #firstBlock img{
+        height: 50%;
+    }
+    #firstBlock #leftButton{
+        font-size: 6pt;
+    }
+    #firstBlock #rightButton{
+        font-size: 6pt;
+    }
+}

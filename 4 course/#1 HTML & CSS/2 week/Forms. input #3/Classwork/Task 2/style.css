@@ -1,0 +1,49 @@
+body{
+    background-image: url("Images/sea.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+div{
+    background-color: transparent;
+    box-shadow: 0 0 4px 2px white;
+    width: 80%;
+    margin: 40px 10% 0px 10%;
+    color: white;
+    padding: 15px;
+}
+.inline{
+    display: inline;
+    color: grey;
+}
+.first{
+    width: 48%;
+    height: 30px;
+    color: grey;
+}
+.second{
+    width: 98.5%;
+    height: 30px;
+    color: grey;
+}
+.third{
+    width: 31.19%;
+    height: 30px;
+    color: grey;
+}
+.fourth{
+    width: 98.5%;
+    height: 30px;
+}
+.fifth{
+    width: 98.5%;
+    height: 90px;
+}
+.sixth{
+    width: 81%;
+    margin-left: 18.5%;
+    background-color: transparent;
+    color: white;
+}
+table{
+    width: 100%;
+}

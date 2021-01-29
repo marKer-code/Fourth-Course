@@ -1,0 +1,67 @@
+img
+{
+    width: 100%;
+}
+.w
+{
+    width: 20px;
+    height: 20px;
+}
+.t
+{
+    width: 50px;
+    height: 15px;
+}
+span
+{
+color: gray;
+font-weight: normal;
+}
+td
+{
+    border: 1px solid black;
+ margin:0px;
+ text-align: center;
+}
+tr
+{
+ height: 40px;
+}
+table
+{
+    width: 33%;
+}
+.r
+{
+    text-align: right;
+}
+.l
+{
+    text-align: left;
+}
+.lm
+{
+    margin-left: 5px;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.rm
+{
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.rmb
+{
+    margin-right: 5px;
+color: blue;
+font-weight: bolder;
+}
+.rmo
+{
+    margin-right: 5px;
+    color: white;
+    background-color: orange;
+    padding: 2px 5px 2px 5px;
+    font-weight: bolder;
+}

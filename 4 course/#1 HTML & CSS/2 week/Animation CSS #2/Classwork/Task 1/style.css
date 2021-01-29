@@ -1,0 +1,53 @@
+ul li{
+    display: inline-block;
+    width: 23%;
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+  
+    width: 100%;
+    margin:0;
+    height: 20%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sub-ul{
+   display: none;
+   position: absolute;
+}
+li:hover{
+    background-color: darkslategrey;
+}
+ul li:hover > .sub-ul{
+    display: block;
+    width: 23%;
+    padding: 0;
+}
+.sub-ul li{
+    display: block;
+    width:100%;
+}
+.subsub-ul{
+    display: none;
+    position: absolute;
+}
+.subsub-ul li{
+    display: block;
+    width:100%;
+}
+.sub-ul li:hover > .subsub-ul{
+    display: inline;
+    left: 102%;
+    width: 23%;
+    padding: 0;
+}

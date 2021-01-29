@@ -1,0 +1,153 @@
+html, body{
+    height: 98%;
+}
+body{
+    background-image: url(../Images/nature.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h4{
+    color: white;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content{
+    margin: 2%;
+    height: 95%;
+    text-align: center;
+}
+
+.content h4{
+    margin: 5%;
+}
+
+
+.col-md-2{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0% 1%;
+    padding: 1%;
+}
+
+#subscribe{
+    margin-top: 5%;
+}
+
+p{
+    color: white;
+    font-size: 9pt;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    border-radius: 30px; 
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin: 0% 1%;
+}
+.icons{
+    margin: 0px;
+}
+
+.inp{
+    margin-top: 3%;
+    padding-left: 1%;
+    padding-right: 5%;
+    padding-top: 0.5%;
+    padding-block: 0.5%;
+    border: 2px solid white;
+    float: left;
+    border-radius: 50px 0 0 50px;
+}
+.col-md-1{
+    padding: 0px;
+}
+.pni{
+    margin-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-block: 0.5%;
+    background-color: rgb(94, 238, 166);
+    color: white;
+    border: 2px solid rgb(94, 238, 166);
+    float: left;
+    border-radius: 0 50px 50px 0;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+}
+#cicle{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+#about{
+    margin-top: 6%;
+    margin-bottom: 2%;
+}
+#q{
+    text-align: right;
+}
+#q h4{
+    margin: 7px 0px;
+}
+#W input{
+    background-color: transparent;
+    color: white;
+    border: 0.4px solid white;
+    margin: 2px 0px;
+    padding: 2px;
+}
+#e{
+    height: 65px;
+}
+@media (max-width: 770px){
+    #fl{
+        font-size: 15pt;
+    }
+    img{
+        width: 550px;
+    }
+    .icons{
+        width: auto;
+    }
+    #about{
+        width: auto;
+    }
+    #cicle{
+        width: auto;
+    }
+}
+
+
+@media (max-width: 600px){
+    #fl{
+        font-size: 10pt;
+    }
+    img{
+        width: 350px;
+    }
+    #about{
+        width: 100px;
+    }
+    #cicle{
+        width: auto;
+    }
+    .sub{
+        font-size: 13pt;
+    }
+}

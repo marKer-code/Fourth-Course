@@ -1,0 +1,13 @@
+body
+{
+    background-image: url(https://img4.goodfon.ru/wallpaper/nbig/6/64/tekstura-fon-listia-palmy.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+div
+{
+        height: inherit;
+        background-color: rgba(0, 0, 0, 0.3);
+        margin: 50pt;
+        padding: 20px;
+}

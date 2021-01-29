@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+h4{
+    margin: 5px 0px 0px 0px;
+}
+div{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 14px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.left{
+    float: left;
+}
+html, body{
+    height: 100%;    
+}
+footer{
+    height: 25%;
+    text-align: center;
+    margin-top: 30px;
+    clear: both;
+}   
+main{
+    text-align: center;
+    clear: both;
+    margin-bottom: 30px;
+}       

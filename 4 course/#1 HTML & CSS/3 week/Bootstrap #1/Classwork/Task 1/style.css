@@ -1,0 +1,22 @@
+html, body{
+    height: 98%;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(245, 216, 216);
+}
+
+.content{
+    background-color: white;
+    margin: 2%;
+    height: 95%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.pink{
+    background-color: pink;
+    min-height: 60%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

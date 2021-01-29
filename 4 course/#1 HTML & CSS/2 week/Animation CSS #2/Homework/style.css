@@ -1,0 +1,57 @@
+html, body{
+    height: 100%;
+    background-color: rgb(231, 231, 231);
+
+}
+img{
+    height: 40px;
+    width: 40px;
+    display: inline;
+    margin: 20px 35px 20px 35px;
+}
+p{
+    display: inline;
+    font-size: 15pt;
+    padding-right: 80px;
+}
+.menuTd{
+    text-align: center;
+    height: 80px;
+    visibility: hidden;
+    vertical-align: middle;
+}
+.menuP{
+    padding-right: 0px;
+}
+td{
+    vertical-align: middle;
+    color: white;
+    background-color: rgb(128, 128, 128);
+}
+table:hover .h{
+    display: table-cell;
+}
+.h{
+    display: none;
+}
+.imageTd{
+    width: 120px;
+}
+table{
+    border-spacing: 0px;
+    display: inline;     
+    float: left;
+    margin-right: 5%;
+}
+body{
+    overflow-y: hidden;
+}
+.div2{
+    height: 100%;
+    width: 75%;    
+    background-color: rgb(231, 231, 231);
+    display: inline;
+    color: black;  
+    font-size: 15px;
+    overflow: scroll;  
+}

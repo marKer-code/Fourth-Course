@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>25.11.2020</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <h2>Flights - Search List</h2>
+                </td>
+                <td id="secondCol">
+                    <h4>Home / Flights Search List</h4>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <main>
+        <form>
+            <input type="radio" name="line">
+            <label>One Way</label>
+            <input type="radio" name="line" id="secondRB">
+            <label>Round Trip</label>
+        </form>
+        <form id="nav">
+            <input type="text" value="From">
+            <input type="text" value="To">
+            <input type="date">
+            <input type="date">
+            <input type="text" value="Economy Class">
+            <input type="button" value="Search" id="searchB">
+        </form>
+
+        <table>
+            <tr>
+                <td id="fCol">
+                    <div id="left">
+                        <h4>Filter</h4>
+                        <p id="blueP">No. of Stops</p>
+
+                        <form>
+                            <input type="checkbox">
+                            <label>Non Stop<br></label>
+                            <input type="checkbox">
+                            <label>1 Stop<br></label>
+                            <input type="checkbox">
+                            <label>2+ Stop<br></label>
+                        </form>
+
+                        <p id="blueP">Airlines</p>
+
+                        <form id="price">
+                            <input type="checkbox">
+                            <label>Asiana Airlines<br></label>
+                            <input type="checkbox">
+                            <label>American Airlines<br></label>
+                            <input type="checkbox">
+                            <label>Air Canada<br></label>
+                            <input type="checkbox">
+                            <label>Air India<br></label>
+                            <input type="checkbox">
+                            <label>Jet Airways<br></label>
+                            <input type="checkbox">
+                            <label>Spicejet<br></label>
+                            <input type="checkbox">
+                            <label>IndiGo<br></label>
+                            <input type="checkbox">
+                            <label>Multiple Airlines<br></label>
+                        </form>
+                    </div>
+                </td>
+                <td>
+                    <div id="right">
+                        <table>
+                            <tr>
+                                <td id="f" colspan="6">
+                                    <h4>Dehli to Sydney</h4>
+                                </td>
+                            </tr>
+                            <tr id="s">
+                                <td>
+                                    <p>Airlines</p>
+                                </td>
+                                <td>
+                                    <p>Departure</p>
+                                </td>
+                                <td>
+                                    <p>Duration</p>
+                                </td>
+                                <td>
+                                    <p>Arrival</p>
+                                </td>
+                                <td>
+                                    <p>Price</p>
+                                </td>
+                                <td>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" class="info">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <p>IndiGo</p>
+                                            </td>
+                                            <td>
+                                                <p>23:30</p>
+                                            </td>
+                                            <td>
+                                                <p>18h 55m</p>
+                                            </td>
+                                            <td>
+                                                <p>18:15</p>
+                                            </td>
+                                            <td rowspan="2" class="grayB">
+                                                <p>$980</p>
+                                            </td>
+                                            <td colspan="2">
+                                                <form>
+                                                    <input type="button" value="Book" id="bookBb">
+                                                </form>
+                                            </td>
+                                        </tr>
+                                        <tr class="gray">
+                                            <td>
+                                                <p>6E-2489</p>
+                                            </td>
+                                            <td>
+                                                <p>Dehli</p>
+                                            </td>
+                                            <td>
+                                                <p>Non Stop</p>
+                                            </td>
+                                            <td>
+                                                <p>Sydney</p>
+                                            </td>
+                                            <td class="blue">
+                                                <p>Flight Details</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="6" class="info">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <p>IndiGo</p>
+                                            </td>
+                                            <td>
+                                                <p>23:30</p>
+                                            </td>
+                                            <td>
+                                                <p>18h 55m</p>
+                                            </td>
+                                            <td>
+                                                <p>18:15</p>
+                                            </td>
+                                            <td rowspan="2" class="grayB">
+                                                <p>$980</p>
+                                            </td>
+                                            <td colspan="2">
+                                                <form>
+                                                    <input type="button" value="Book" id="bookBb">
+                                                </form>
+                                            </td>
+                                        </tr>
+                                        <tr class="gray">
+                                            <td>
+                                                <p>6E-2489</p>
+                                            </td>
+                                            <td>
+                                                <p>Dehli</p>
+                                            </td>
+                                            <td>
+                                                <p>Non Stop</p>
+                                            </td>
+                                            <td>
+                                                <p>Sydney</p>
+                                            </td>
+                                            <td class="blue">
+                                                <p>Flight Details</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </main>
+</body>
+
+</html>

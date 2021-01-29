@@ -1,0 +1,23 @@
+body
+{
+    background-color: rgb(215, 214, 214);
+}
+.gray
+{
+    color: gray;
+}
+div
+{
+    margin: 15px;
+    padding: 15px;
+}
+span
+{
+    font-weight: bold;
+}
+table
+{
+    padding: 30px;
+    border: 1px solid black;
+    width: 40%;
+}

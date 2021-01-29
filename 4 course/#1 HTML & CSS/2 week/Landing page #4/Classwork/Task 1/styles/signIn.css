@@ -1,0 +1,48 @@
+
+ /* Elements  */
+ 
+#signIn{
+    text-align: center;
+    background-color: rgb(64, 64, 64);
+    color: white;
+    padding: 3% 0%;
+    margin-bottom: 2px;
+    margin-top: 5%;
+}
+#signIn .inputs{
+    padding-left: 5%;
+}
+#signIn input{
+    width: 80%;
+}
+#signIn h1{
+    margin-bottom: 20px;
+}
+#signIn #buttonTd{
+    text-align: center;
+    padding: 20px 0px;
+}
+#signIn #button{
+    width: 50%;
+    background-color: white;
+}
+#signIn table{
+    width: 40%;
+    margin: 0% 30%;
+}
+ /* Media  */
+
+@media (max-width: 700px){
+    #signIn input{
+        width: 95%;
+    }
+    #signIn h1{
+        font-size: 15pt;
+    }
+    #signIn p{
+        font-size: 7pt;
+    }
+    #signIn #button{
+        font-size: 7pt;
+    }
+}

@@ -1,0 +1,28 @@
+li
+{
+    list-style-type: none;
+    background-color: blue;
+}
+span
+{
+    padding: 2pt 10pt;
+}
+.w
+{
+    color:black;
+    text-decoration: line-through;
+}
+ol
+{
+    width: 40%;
+}
+.e
+{
+    background-color: lightblue;
+
+}
+.q
+{
+    color: red;
+    font-weight: bolder;
+}

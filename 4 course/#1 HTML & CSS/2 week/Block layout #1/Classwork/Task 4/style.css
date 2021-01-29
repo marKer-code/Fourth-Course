@@ -1,0 +1,76 @@
+html, body{
+    height: 100%;
+}
+body{
+    overflow-y: hidden;
+}
+footer{
+    background-color: rgb(42, 79, 110);
+    color: white;
+    padding: 2%;
+}
+table{
+    margin:0% 10% 2% 10%;
+}
+.table{
+    width: 100%;
+}
+.mainTd{
+    width: 100%;
+}
+p{
+    font-size: 8pt;
+    font-family: monospace;
+    margin: 0px;
+}
+.tr{
+    height: 20%;
+}
+hr{
+    margin: 0% 5% 2% 5%;
+}
+#copyright{
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 2%;
+}
+img{
+    width: 35px;
+}
+.firstCol{
+    padding: 0px;
+}
+.firstCol:hover{
+    text-decoration: underline;
+}
+.secondCol:hover{
+    text-decoration: underline;
+}
+
+#fbIcon{
+    background-image: url(../Images/fb_gray.png);
+    width: 35px;
+    height: 36px;
+    padding: 0px;
+}
+#instIcon{
+    background-image: url(../Images/inst_gray.png);
+    width: 35px;
+    height: 36px;
+    padding: 0px;
+}
+#youtubeIcon{
+    background-image: url(../Images/youtube_gray.png);
+    width: 35px;
+    height: 36px;
+    padding: 0px;
+}
+#fbIcon:hover{
+    background-image: url(../Images/fb.png);
+}
+#instIcon:hover{
+    background-image: url(../Images/inst.png);
+}
+#youtubeIcon:hover{
+    background-image: url(../Images/youtube.png);
+}

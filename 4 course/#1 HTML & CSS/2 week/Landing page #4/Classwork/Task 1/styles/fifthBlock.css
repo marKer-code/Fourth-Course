@@ -1,0 +1,30 @@
+
+ /* Elements  */
+
+ #fifthBlock{
+    background-image: url("../Media/cake.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 80px 0px;
+    margin: 70px 0px;
+}
+#fifthBlock #firstLine{
+    font-family: cursive;
+    font-size: 11pt;
+}
+#fifthBlock #secondLine{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 9.5pt;
+}
+ /* Media  */
+
+@media (max-width: 700px){
+    #fifthBlock #firstLine{
+        font-size: 8pt;
+    }
+    #fifthBlock #secondLine{
+        font-size: 6.5pt;
+    }
+}

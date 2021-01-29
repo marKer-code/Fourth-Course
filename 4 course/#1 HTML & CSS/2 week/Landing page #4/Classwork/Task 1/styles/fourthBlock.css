@@ -1,0 +1,52 @@
+
+ /* Elements  */
+
+ #fourthBlock{
+    text-align: center;
+}
+#fourthBlock td{
+    text-align: center;
+}
+#fourthBlock #firstLine{
+    color: rgb(36, 214, 227);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 11pt;
+}
+#fourthBlock #secondLine{
+    color: rgb(240, 128, 147);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#fourthBlock table{
+    height: 400px;
+    margin: 0% 15%;
+    width: 70%;
+}
+#fourthBlock img{
+    width: 250px;
+}
+#fourthBlock .button{
+    background-color: rgb(36, 214, 227);
+    height: 25px;
+    border: 0px;
+    font-size: 8.2pt;   
+    padding: 5px 15px 5px 15px;
+    color: white;
+}
+
+ /* Media  */
+
+ @media (max-width: 700px){
+    #fourthBlock img{
+        height: 200px;
+        width: 90%;
+    }
+    #fourthBlock #firstLine{
+        font-size: 8pt;
+    }
+    #fourthBlock #secondButton{
+        font-size: 7pt;
+    }
+    #fourthBlock .button{
+        font-size: 6pt;
+    }
+}

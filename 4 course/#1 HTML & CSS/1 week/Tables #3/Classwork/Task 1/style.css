@@ -1,0 +1,46 @@
+td
+{
+    border: 1px solid black;
+    width: 50px;
+}
+table
+{
+    border-collapse: collapse;
+}
+tr
+{
+    height: 30px;
+}
+.smaller
+{
+    height: 15px;
+}
+.pink
+{
+    background-color: pink;
+}
+.yellow
+{
+    background-color: yellow;
+}
+.blue
+{
+    background-color: lightblue;
+}
+.q
+{
+    width: 20px;
+}
+table
+{
+    width: 50%;
+}
+.e
+{
+    border-top: 0px none black;
+}
+.qe
+{
+    width: 20px;
+    border-top: 0px none black;
+}

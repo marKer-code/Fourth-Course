@@ -1,0 +1,57 @@
+body{
+    background-color: salmon;
+    text-align: center;
+}
+div{
+    background-color: gainsboro;
+    text-align: center;
+    margin: 60px 25% 0px 25%;
+    padding: 10px 0px 10px 0px;
+    width: 50%;
+    box-shadow: 0 0 5px 4px gray;
+}
+#button{
+    background-color: green;
+    width: 82%;
+    height: 35px;
+    margin-bottom: 20px;
+    color: white;
+}
+.fields{
+    margin-bottom: 20px;
+    height: 25px;
+    width: 80%;
+    text-align: center;
+}
+h1{
+    margin-bottom: 50px;
+}
+#red{
+    color: red;
+}
+#white{
+    color: white;
+    font-size: 20px;
+}
+img{
+    height: 40px;
+    width: 22%;
+}
+#signInF{
+    margin-right: 6%;
+    width: 22%;
+    color: white;
+    font-size: 20px;
+    padding: 2px 18px 2px 18px;
+    background-color: rgb(41, 41, 255);
+}
+#signInT{
+    color: white;
+    font-size: 20px;
+    width: 22%;
+    padding: 2px 18px 2px 18px;
+    background-color: rgb(47, 232, 219);
+}
+.inline{
+    display: inline;
+}
