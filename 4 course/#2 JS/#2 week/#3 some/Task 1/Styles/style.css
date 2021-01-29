@@ -1,0 +1,53 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    padding: 0px 10px;
+}
+.col{
+    margin: 10px;
+    padding: 0px;
+}
+.col textarea{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    resize: none;
+}
+.table-dark{
+    height: 100%;
+    margin: 0px;
+}
+.table{
+    vertical-align: middle;
+    height: 100%;
+}
+#consolas{
+    font-family: consolas;
+}
+#candara{
+    font-family: candara;
+}
+#amaza{
+    font-family: amaza;
+}
+#cambria{
+    font-family: cambria;
+}
+#monospace{
+    font-family: monospace;
+}
+#green{
+    color: green;
+}
+#orange{
+    color: orange;
+}
+#lightBlue{
+    color: lightblue;
+}
+#yellow{
+    color: yellow;
+}
+#lightcoral{
+    color: lightcoral;
+}

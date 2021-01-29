@@ -1,0 +1,21 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    padding: 0px 10px;
+}
+.col{
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    padding: 50px;
+}
+form{
+    text-align: center;
+}
+input{
+    margin: 0px 30px;
+}
+img{
+    max-width: 400px;
+    max-height: 500px;
+}
