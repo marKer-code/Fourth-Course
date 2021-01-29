@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+}
+
+<form action="/Home/Edit" method="post">
+    <div class="mb-3" style="display:none;">
+        <label for="exampleInputEmail1" class="form-label">Id</label>
+        <input class="form-control" name="Id" value="@ViewBag.Post.Id">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Title</label>
+        <input class="form-control" name="Title" value="@ViewBag.Post.Title">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Date</label>
+        <input class="form-control" name="Date" value="@ViewBag.Post.Date">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Description</label>
+        <input class="form-control" name="Description" value="@ViewBag.Post.Description">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">IsPriority</label>
+        <input class="form-control" type="checkbox"name="IsPriority" value="@ViewBag.Post.IsPriority">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Image URL</label>
+        <input class="form-control" name="Image" value="@ViewBag.Post.Image">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

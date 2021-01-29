@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="accordion">
+    @foreach (var pt in ViewBag.Posts)
+    {
+        <div class="d badge bg-dark">
+            <header>
+                <div class="container">
+                    <div class="row align-items-start">
+                        <div class="col left">
+                            @pt.Title
+                        </div>
+                        <div class="col right">
+                            <p>Author: @pt.Author</p>
+                            <p>Date Publish: @pt.Date</p>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <h4>@pt.Description</h4>
+                    </div>
+                    <div class="col left">
+                        <a href="/Home/Update">Update</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    <a href="/Home/Add">Add</a>
+</div>
