@@ -22,3 +22,7 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.inp{
+    margin-right: 20px !important;
+}

@@ -12,7 +12,6 @@ namespace To_Do_List.Controllers
     public class HomeController : Controller
     {
         private readonly ToDoListContext ctx;
-        private List<string> el = new List<string>();
 
         public HomeController() => ctx = new ToDoListContext();
 
@@ -109,6 +108,22 @@ namespace To_Do_List.Controllers
                 Title = m.Title
             })
             .OrderBy(t => t.Description);
+            return View("Index", models);
+        }
+
+        public ActionResult Search(string el)
+        {
+            IEnumerable<ToDoListViewModels> models = ctx.Notes.Select(m => new ToDoListViewModels()
+            {
+                Id = m.Id,
+                Date = m.Date,
+                Description = m.Description,
+                Image = m.Image,
+                IsPriority = m.IsPriority,
+                Title = m.Title
+            })
+            .Where(n => n.Title == el ||
+                   n.Description == el);
             return View("Index", models);
         }
 

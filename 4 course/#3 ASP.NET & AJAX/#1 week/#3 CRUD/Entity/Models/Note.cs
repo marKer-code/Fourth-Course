@@ -13,7 +13,7 @@ namespace To_Do_List.Entity.Models
         [Required]
         public string Title { get; set; }
         [Required]
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
         [Required]
         public string Description { get; set; }
         [Required]

@@ -15,7 +15,7 @@ namespace To_Do_List.Models
         public string Title { get; set; }
         [Required(ErrorMessage = "Date is required")]
         [Display(Name = "Date: ")]
-        public string Date { get; set; }
+        public DateTime Date { get; set; }
         [Required(ErrorMessage = "Description is required")]
         [Display(Name = "Description: ")]
         public string Description { get; set; }
