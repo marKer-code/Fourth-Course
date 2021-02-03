@@ -5,6 +5,18 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@Html.Partial("Calendar")
+@using (Html.BeginForm("Calendar", "Home", FormMethod.Get, new { id = "dateForm" }))
+
+{
+    @Html.TextBox("date", null, new { type = "date", id = "mydate" })
+}
+@using (Html.BeginForm("Calendar_", "Home", FormMethod.Get, new { id = "dateForm_" }))
+
+{
+@Html.TextBox("date", null, new { type = "month", id = "mydate_" })
+}
+
 <head>
     <meta name="viewport" content="width=device-width" />
     <link type="text/css" rel="stylesheet" href="../../Content/Site.css" />
@@ -17,7 +29,7 @@
 
 <nav style="margin-bottom: 20px;">
     <form action="/Home/Search" method="post">
-        <input type="text" placeholder="Enter..." name="el"/>
+        <input type="text" placeholder="Enter..." name="el" />
         <button class="inp" type="submit">Search</button>
     </form>
     <a href="/Home/Search/">
@@ -97,3 +109,15 @@
     }
 
 </table>
+
+
+<script>
+    onload = () => {
+        document.getElementById("mydate").onchange = () => {
+            document.getElementById("dateForm").submit();
+        }
+        document.getElementById("mydate_").onchange = () => {
+            document.getElementById("dateForm_").submit();
+        }
+    }
+</script>

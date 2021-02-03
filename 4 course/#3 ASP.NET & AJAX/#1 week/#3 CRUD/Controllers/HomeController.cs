@@ -127,6 +127,35 @@ namespace To_Do_List.Controllers
             return View("Index", models);
         }
 
+        public ActionResult Calendar(DateTime date)
+        {
+            IEnumerable<ToDoListViewModels> model = ctx.Notes.Where(x => x.Date == date)
+                .Select(n => new ToDoListViewModels
+                {
+                    Date = n.Date,
+                    Description = n.Description,
+                    Id = n.Id,
+                    Image = n.Image,
+                    IsPriority = n.IsPriority,
+                    Title = n.Title
+                });
+            return View("Index", model);
+        }
+        public ActionResult Calendar_(DateTime date)
+        {
+            IEnumerable<ToDoListViewModels> model = ctx.Notes.Where(x => x.Date.Month == date.Month)
+                .Select(n => new ToDoListViewModels
+                {
+                    Date = n.Date,
+                    Description = n.Description,
+                    Id = n.Id,
+                    Image = n.Image,
+                    IsPriority = n.IsPriority,
+                    Title = n.Title
+                });
+            return View("Index", model);
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
